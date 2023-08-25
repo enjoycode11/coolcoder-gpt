@@ -32,6 +32,7 @@ public class GptController {
         header.put("Authorization", "Bearer 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");
         System.out.println("JSON.toJSONString(userRequest) = " + JSON.toJSONString(userRequest));
 
+
         GptRequest gptRequest = new GptRequest();
         gptRequest.setModel("gpt-3.5-turbo");
         GptRequestMessages gptRequestMessages = new GptRequestMessages();
